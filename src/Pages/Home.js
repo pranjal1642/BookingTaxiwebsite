@@ -13,7 +13,7 @@ const Home = () => {
 			<Form />
 			<Choice />
 			<Quote />
-			<Card />
+			{/* <Card /> */}
 		</>
 	);
 };
