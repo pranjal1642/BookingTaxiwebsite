@@ -1,0 +1,150 @@
+.card-img {
+	height: 520px;
+}
+
+.card-img-overlay {
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+}
+
+.block-title .dot-line {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: #ffc000;
+	margin-top: 15rem;
+}
+.block-title p {
+	color: #717171;
+	font-weight: 600;
+	font-size: 1.3 rem;
+	margin: 0.5rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+.block-titlee h2 {
+	font-family: poppins-serif;
+	color: black;
+	font-weight: 700;
+	font-size: 60px;
+	margin: 0;
+	line-height: 1, 2;
+}
+.booking-form-two .text p {
+	color: #717171;
+	font: 16px;
+	font-family: poppins, sans-serif;
+	margin: 0px 0px 50px;
+}
+
+.booking-form-two .form-block-title h3 {
+	color: black;
+	font: 20px;
+	font-family: poppins-serif;
+	margin: 30px 0px;
+}
+.book-ride-two .booking-form-two .input-holder {
+	position: relative;
+	margin-bottom: 30px;
+}
+.book-ride-two .booking-form-two input,
+.book-ride-two .booking-form-two select {
+	border: none;
+	outline: 0;
+	width: 100%;
+	background-color: #f3f3f3;
+	height: 67px;
+	border-radius: 33.5px;
+	padding-left: 40px;
+	color: #717171;
+	font-size: 14px;
+	font-weight: 600;
+}
+.book-ride-two .booking-form-two .row {
+	margin-left: -15px;
+	margin-right: -15px;
+	display: flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.book-ride-two .booking-form-two ul.radio-fields {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 270px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.book-ride-two .booking-form-two ul.radio-fields li {
+	float: left;
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+}
+
+.select-car-type input {
+	border: none;
+	outline: 0;
+	width: 100%;
+	background-color: #f3f3f3;
+	height: 30px !important;
+	border-radius: 33.5px;
+	padding-left: 40px;
+	color: #717171;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.select-car-type div ul li {
+	display: flex;
+	align-items: center;
+}
+.book-ride-two .booking-form-two ul.special-checkbox li {
+	display: inline-block;
+	color: #717171;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	cursor: pointer;
+}
+.book-ride-two .booking-form-two ul.special-checkbox li .input-checker {
+	width: 30px;
+	height: 30px;
+	background-color: #f3f3f3;
+	border-radius: 50%;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.book-ride-two .booking-form-two button[type='submit'] {
+	cursor: pointer;
+	border: none;
+	outline: 0;
+	width: 100%;
+	background-color: #ffc000;
+	height: 67px;
+	border-radius: 33.5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #111;
+	transition: all 0.4s ease;
+	max-width: 250px;
+	margin-top: 50px;
+}
+.book-ride-two .booking-form-two button[type='submit']:hover {
+	background-color: #111 !important;
+	color: #ffc000;
+}

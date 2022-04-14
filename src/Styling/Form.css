@@ -1,0 +1,74 @@
+.book-ride {
+	padding: 80px 0;
+	position: relative;
+	background: #111111;
+}
+.book-ride img {
+	position: absolute;
+	top: 0;
+	right: o;
+	opacity: 0.05;
+}
+
+.content-block p {
+	background: transparent;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 36px;
+}
+
+.block-title p,
+h2 {
+	color: #fff;
+}
+
+/* h2 {
+	font-size: 60px;
+	letter-spacing: -0.04em;
+	font-weight: 700;
+	color: #111111;
+} */
+
+.block-title h2 {
+	font-size: 60px;
+	letter-spacing: -0.04em;
+	font-weight: 700;
+}
+
+form .input-holder {
+	margin-bottom: 20px;
+	position: relative;
+}
+form .input-holder input {
+	border: none;
+	outline: none;
+	width: 100%;
+	background-color: #242424;
+	height: 68px;
+	border-radius: 30px;
+	padding-left: 30px;
+	color: #f6f4ef;
+	font-size: 14px;
+	font-weight: 600;
+}
+.input-holder button {
+	cursor: pointer;
+	outline: none;
+	width: 100%;
+	background-color: #ffc000;
+	height: 67px;
+	border-radius: 33px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #111111;
+	border-radius: 40px;
+}
+form .input-holder svg {
+	color: #ffc000;
+	font-size: 23px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+}
