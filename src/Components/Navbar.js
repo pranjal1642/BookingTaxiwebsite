@@ -28,34 +28,34 @@ const Navbar = () => {
 										aria-expanded="false"
 										aria-label="Toggle navigation"
 									>
-										<span class="navbar-toggler-icon"></span>
+										<span className="navbar-toggler-icon"></span>
 									</button>
 									<div
-										class="collapse navbar-collapse"
+										className="collapse navbar-collapse"
 										id="navbarSupportedContent"
 									>
-										<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-											<li class="nav-item">
+										<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+											<li className="nav-item">
 												<Link
 													to={`/`}
-													class="nav-link active"
+													className="nav-link active"
 													aria-current="page"
 												>
 													Home
 												</Link>
 											</li>
-											<li class="nav-item ">
-												<Link to={`/about`} class="nav-link ">
+											<li className="nav-item ">
+												<Link to={`/about`} className="nav-link ">
 													About
 												</Link>
 											</li>
-											<li class="nav-item ">
-												<Link to={`/bookaride`} class="nav-link ">
+											<li className="nav-item ">
+												<Link to={`/bookaride`} className="nav-link ">
 													Book A ride
 												</Link>
 											</li>
-											<li class="nav-item ">
-												<Link to={`/contact`} class="nav-link ">
+											<li className="nav-item ">
+												<Link to={`/contact`} className="nav-link ">
 													Contact
 												</Link>
 											</li>
