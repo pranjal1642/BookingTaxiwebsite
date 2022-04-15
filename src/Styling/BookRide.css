@@ -8,6 +8,15 @@
 	padding-top: 150px;
 }
 
+ul.special-checkbox li {
+	position: relative;
+}
+
+ul.special-checkbox li span input {
+	position: absolute;
+	top: -18px;
+	left: 0;
+}
 .block-title .dot-line {
 	display: inline-block;
 	vertical-align: middle;
