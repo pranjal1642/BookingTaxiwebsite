@@ -12,9 +12,8 @@ const Home = () => {
 			<SimpleSlider />
 			<Form />
 			<Choice />
-			beugvneinjgeikngeikjngbkie
 			<Quote />
-			{/* <Card /> */}
+			<Card />
 		</>
 	);
 };
